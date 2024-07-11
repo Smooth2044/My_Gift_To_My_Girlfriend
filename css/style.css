@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #BB8FCE;
+    background-image: url("/assets/girasolesitos.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+audio {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-left: 20px;
+    text-align: center;
+    font-size: large;
+    background: -webkit-linear-gradient(#8E44AD, #8E44AD, #7FB3D5,#7FB3D5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+.sub {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+    background: -webkit-linear-gradient(#7FB3D5,#7FB3D5, #8E44AD, #8E44AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.parra {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+}
+
+.text-1 {
+    margin: 0px 15px;
+    font-family: serif;
+    font-size: larger;
+}
+
+.lista {
+    margin: 0px 20px; 
+    display: flex;
+}
+
+.lista-2 {
+    margin: 0px 15px;
+    font-family: serif;
+    font-size: larger;
+}
+
+.parra2 {
+    margin: 0px 30px;
+    text-align: center;
+    font-size: larger;
+    font-family: serif;
+}
+
+.foto-1 {
+    position: relative;
+    margin-left: 20px;
+    margin-right: auto;
+    margin: 0px 30px;
+}
+
+.foto-2 {
+    align-items: center;
+    margin-left: 252px;
+    margin-right: auto;
+    position: absolute;
+    right: 17px;
+}
+
+video {
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+button {
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #8E44AD,
+        #BB8FCE,
+        #7FB3D5 
+        );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+button span {
+    background-image: linear-gradient(
+        150deg,
+        #D7BDE2,
+        #E8DAEF,
+        #D6EAF8
+    );
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
